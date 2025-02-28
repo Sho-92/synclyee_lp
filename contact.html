@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Synclyeeは社員教育用のEラーニングプラットフォームです。">
+    <title>Synclyee</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+    <!-- ヘッダー: サイトのタイトルやナビゲーション -->
+    <header>
+      <h1 class="logo">Synclyee</h1>
+      <button class="hamburger" aria-label="メニューを開く">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav>
+        <!-- デスクトップ用ナビゲーション -->
+        <ul>
+          <li><a href="index.html">ホーム</a></li>
+          <li><a href="security.html">セキュリティ</a></li>
+          <li><a href="contact.html">お問い合わせ</a></li>
+        </ul>
+        <!-- モバイル用ナビゲーションメニュー -->
+        <ul class="nav-menu">
+          <li><a href="index.html">ホーム</a></li>
+          <li><a href="security.html">セキュリティ</a></li>
+          <li><a href="contact.html">お問い合わせ</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- メインコンテンツ -->
+    <main>
+      <div class="contact-section">
+        <div class="contact-title">
+          <h2>お問い合わせ</h2>
+          <p>
+            ご不明な点等ございましたら、お気軽にお問い合わせください。<br>
+            最短１営業日以内に折り返しいたします。
+          </p>
+        </div>
+        <div class="contact-main">
+          <div class="contact-sub">
+            <div class="hero-image">
+              <img src="img/hero-img.png" alt="モックアップのイメージ">
+            </div>  
+          </div>
+          <div class="contact-form">
+            <form action="https://formspree.io/f/manqgzan" method="POST">
+              <label>
+                会社名:
+                <input type="text" name="company" required>
+              </label>
+              
+              <label>
+                お名前:
+                <input type="text" name="name" required>
+              </label>
+      
+              <label>
+                メールアドレス:
+                <input type="email" name="email" required>
+              </label>
+      
+              <label>
+                職種を選択してください:
+                <select name="industry" required>
+                  <option value="">選択してください</option>
+                  <option value="美容・脱毛サロン">美容・脱毛サロン</option>
+                  <option value="整骨院・鍼灸院">整骨院・鍼灸院</option>
+                  <option value="飲食店">飲食店</option>
+                  <option value="専門学校・企業研修">専門学校・企業研修</option>
+                  <option value="クリニック・介護施設">クリニック・介護施設</option>
+                  <option value="工場・機械メンテナンス">工場・機械メンテナンス</option>
+                  <option value="その他">その他</option>
+                </select>
+              </label>        
+            
+              <label>
+                希望プラン:
+                <select name="plan" required>
+                  <option value="basic">ベーシック</option>
+                  <option value="standard">スタンダード</option>
+                  <option value="premium" selected>プレミアム</option>
+                </select>
+              </label>
+            
+              <label>
+                メッセージ:
+                <textarea name="message" required></textarea>
+              </label>
+            
+              <button type="submit">送信する</button>
+            </form>      
+          </div>
+        </div>
+
+        <div class="faq-section">
+          <h3>よくある質問</h3>
+          <div class="faq-detail">
+            <div class="faq-item">
+              <h4 class="faq-q">Q.</h4>
+              <p>まずは試験的に運用したいのですが、可能ですか？</p>
+            </div>
+            <div class="faq-item">
+              <h4 class="faq-a">A.</h4>
+              <p>14日間の無料トライアルをご利用いただけます。トライアル環境では、一部機能が制限されます（ベーシックプランのみ）。</p>
+            </div>
+          </div>
+          <div class="faq-detail">
+            <div class="faq-item">
+              <h4 class="faq-q">Q.</h4>
+              <p>無料トライアル中にアップロードした動画や設定は、契約後も引き継がれますか？</p>
+            </div>
+            <div class="faq-item">
+              <h4 class="faq-a">A.</h4>
+              <p>無料トライアル期間中にご登録いただいた動画・ユーザーリスト・設定情報は、すべて契約後の環境に引き継がれます。</p>
+            </div>
+          </div>
+          <div class="faq-detail">
+            <div class="faq-item">
+              <h4 class="faq-q">Q.</h4>
+              <p>契約期間に決まりはありますか？</p>
+            </div>
+            <div class="faq-item">
+              <h4 class="faq-a">A.</h4>
+              <p>契約は年単位のみとなります。月単位での契約はできませんが、年契約を前提に年度の変わり目までの分割契約は可能です。</p>
+            </div>
+          </div>
+          <div class="faq-detail">
+            <div class="faq-item">
+              <h4 class="faq-q">Q.</h4>
+              <p>契約後にプラン変更はできますか？</p>
+            </div>
+            <div class="faq-item">
+              <h4 class="faq-a">A.</h4>
+              <p>プランのアップグレードのみ可能です。差額をお支払いいただくことで、契約期間中でも変更できます。</p>
+            </div>
+          </div>
+          <div class="faq-detail">
+            <div class="faq-item">
+              <h4 class="faq-q">Q.</h4>
+              <p>操作マニュアルはありますか？</p>
+            </div>
+            <div class="faq-item">
+              <h4 class="faq-a">A.</h4>
+              <p>管理画面から各種マニュアルをご確認いただけます。また、契約時には初期設定のサポートも提供しております。</p>
+            </div>
+          </div>
+          <div class="faq-detail">
+            <div class="faq-item">
+              <h4 class="faq-q">Q.</h4>
+              <p>どの端末で利用できますか？</p>
+            </div>
+            <div class="faq-item">
+              <h4 class="faq-a">A.</h4>
+              <p>PC・スマホ・タブレットでご利用可能です。ブラウザはGoogle Chromeを推奨しております。</p>
+            </div>
+          </div>
+          <div class="faq-detail">
+            <div class="faq-item">
+              <h4 class="faq-q">Q.</h4>
+              <p>利用料金の支払い方法を教えてください。</p>
+            </div>
+            <div class="faq-item">
+              <h4 class="faq-a">A.</h4>
+              <p>銀行振込にてお支払いいただきます。振込先や詳細な手順は、契約時にご案内いたします。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Synclyee. All Rights Reserved. v1.0.0</p>
+    </footer>
+
+    <script src="/js/script.js"></script>
+
+</body>
+</html>
