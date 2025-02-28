@@ -636,34 +636,42 @@
 @media (max-width: 480px) {
   /* ── Hero Section ── */
   .hero-section {
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
     min-height: 50vh;
+    width: 100%;
     padding: 10px;
   }
-  .hero-section-left,
+  .hero-section-left {
+    max-width: 100%;
+    text-align: start;
+  }
   .hero-section-right {
     max-width: 100%;
     text-align: center;
   }
   .hero-section h2 {
     font-size: 28px;
+    margin-bottom: 20px;
   }
   .hero-section h3 {
     font-size: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
   .hero-image img {
     width: 100%;
-    max-width: 300px;
+    max-width: 500px;
     height: auto;
   }
 
   /* ── Reason Section ── */
   .reason-title {
     padding: 20px;
+    margin: 50px 0;
     height: auto;
+  }
+  .reason-title h2 {
     font-size: 28px;
   }
   .reason-main {
@@ -671,7 +679,7 @@
     max-width: 100%;
   }
   .reason-main h3 {
-    font-size: 28px;
+    font-size: 26px;
   }
   .reason-container {
     grid-template-columns: 1fr;
@@ -702,10 +710,10 @@
     font-size: 32px;
   }
   .contact-section h3 {
-    font-size: 24px;
+    font-size: 20px;
   }
   .contact-section p {
-    font-size: 14px;
+    font-size: 12px;
   }
   .contact-detail {
     grid-template-columns: 1fr;
@@ -754,8 +762,9 @@
     padding: 20px;
   }
   .function-demo-section h3 {
-    font-size: 24px;
+    font-size: 26px;
     margin-bottom: 8px;
+    text-align: center;
   }
   .function-demo-section p {
     font-size: 16px;
@@ -768,7 +777,7 @@
     max-width: 100%;
   }
   .usage-section h3 {
-    font-size: 28px;
+    font-size: 26px;
     margin-bottom: 10px;
   }
   .usage-section p {
@@ -799,17 +808,18 @@
     padding: 30px 15px;
   }
   .price-section-title h2 {
-    font-size: 28px;
+    font-size: 20px;
     padding: 5px 15px;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
   }
   .price-section-title h3 {
-    font-size: 22px;
+    font-size: 20px;
     margin-bottom: 5px;
   }
   .price-section-title p {
-    font-size: 16px;
+    font-size: 14px;
     margin-bottom: 5px;
+    text-align: center;
   }
   .price-container {
     grid-template-columns: 1fr;
@@ -866,6 +876,10 @@
     font-size: 28px;
     margin-bottom: 10px;
   }
+  .flow-section p {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
   .flow-step {
     flex-direction: column;
     gap: 10px;
@@ -876,12 +890,13 @@
   }
   .flow-step-detail {
     padding: 15px;
+    width: 100%;
   }
   .flow-step-detail h4 {
     font-size: 20px;
   }
   .flow-step-detail p {
-    font-size: 14px;
+    font-size: 13px;
   }
   .flow-step-detail i {
     font-size: 24px;
@@ -889,16 +904,24 @@
 
   /* ── FAQ Section ── */
   .faq-section {
-    padding: 20px;
+    padding: 15px;
     max-width: 100%;
   }
   .faq-section h3 {
     font-size: 24px;
+    margin-bottom: 5px;
   }
   .faq-detail {
     padding: 10px;
     margin: 10px auto;
     max-width: 100%;
+    gap: 10px;
+  }
+  .faq-item {
+    display: flex;
+    align-items: flex-start; /* 上揃え */
+    justify-content: flex-start; /* 左揃え */
+    text-align: left;
   }
   .faq-item p {
     font-size: 14px;

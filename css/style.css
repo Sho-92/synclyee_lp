@@ -192,12 +192,14 @@ button:hover {
   button:active,
   button:focus {
     outline: none;
+    background: none;
     background-color: transparent;
+    box-shadow: none;
   }
 
   .hamburger {
     display: flex;
-    -webkit-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
   }
   
   /* デスクトップ用のナビゲーションは非表示 */
