@@ -184,6 +184,23 @@
   box-shadow: 0 6px 20px rgba(255, 255, 255, 0.6);
 }
 
+.contact-btn-blue {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #2c3e50;
+  text-decoration: none;
+  border: 3px solid #2a87d5;
+  border-radius: 30px;
+  margin-top: 20px;
+  transition: all 0.3s ease;
+}
+
+.contact-btn-blue:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(61, 174, 255, 0.6);
+}
+
+
 .function-section {
   display: flex;
   flex-direction: column; 
@@ -536,7 +553,7 @@
   align-items: center;
   text-align: center;    
   height: auto;
-  padding: 30px;  
+  padding: 40px;  
   margin: 0 auto;
 }
 
@@ -545,8 +562,12 @@
   margin-bottom: 10px;
 }
 
+.flow-section p {
+  margin-bottom: 30px;
+}
+
 .flow-container {
-  margin: 30px auto;
+  margin: 10px auto;
 }
 
 .flow-step {
@@ -575,6 +596,7 @@
 
 .flow-step-detail p {
   font-size: 15px;
+  margin: 0px;
 }
 
 .flow-step-detail i {
@@ -813,6 +835,9 @@
   .price-section {
     padding: 30px 15px;
   }
+  .price-section p {
+    font-size: 12px;
+  }
   .price-section-title h2 {
     font-size: 20px;
     padding: 5px 15px;
@@ -875,7 +900,7 @@
 
   /* ── Flow Section ── */
   .flow-section {
-    padding: 20px;
+    padding: 30px 20px;
     margin: 0 10px;
   }
   .flow-section h2 {
@@ -910,7 +935,7 @@
 
   /* ── FAQ Section ── */
   .faq-section {
-    padding: 15px;
+    padding: 30px 10px;
     max-width: 100%;
   }
   .faq-section h3 {
