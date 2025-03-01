@@ -312,6 +312,9 @@
   margin: 10px 0;
 }
 
+#price {
+  scroll-margin-top: 80px; 
+}
 
 .price-section {
   display: flex;
@@ -804,6 +807,9 @@
   }
 
   /* ── Price Section ── */
+  #price {
+    scroll-margin-top: 60px; 
+  }  
   .price-section {
     padding: 30px 15px;
   }

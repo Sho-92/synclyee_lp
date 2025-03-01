@@ -34,6 +34,10 @@ nav ul li a:hover {
   color: rgb(34, 149, 225);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* 見出し */
 h1, h2, h3, h4 {
   color: #2c3e50;
