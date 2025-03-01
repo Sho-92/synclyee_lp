@@ -563,7 +563,7 @@
 }
 
 .flow-section p {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .flow-container {
@@ -908,7 +908,7 @@
     margin-bottom: 10px;
   }
   .flow-section p {
-    font-size: 14px;
+    font-size: 13px;
     margin-bottom: 5px;
   }
   .flow-step {
