@@ -43,9 +43,9 @@ h1, h2, h3, h4 {
   color: #2c3e50;
 }
 
-h1.logo a {
-  text-decoration: none; 
-  color: inherit; 
+.logo img {
+  width: 200px;
+  height: auto;
 }
 
 /* 区切り線 */
@@ -182,7 +182,7 @@ button:hover {
 @media (max-width: 480px) {
   header {
     height: 60px;
-    padding: 15px;
+    padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;

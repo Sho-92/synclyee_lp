@@ -13,7 +13,7 @@
 
 .hero-section-left {
   flex: 1; 
-  max-width: 55%; 
+  max-width: 50%; 
   text-align: left; 
 }
 
@@ -32,13 +32,13 @@
 
 .hero-section-right {
   flex: 1; 
-  max-width: 45%;
+  max-width: 50%;
   text-align: center;
 }
 
-.hero-image img {
+.hero-image > img {
   width: 500px; 
-  height: 500px;
+  height: auto;
   object-fit: cover; 
 }
 
@@ -686,8 +686,9 @@
   }
   .hero-image img {
     width: 100%;
-    max-width: 500px;
+    max-width: 300px;
     height: auto;
+    margin: 10px auto 20px;
   }
 
   /* ── Reason Section ── */
