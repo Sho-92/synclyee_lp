@@ -11,7 +11,12 @@
 </head>
 <body>
   <header>
-    <h1 class="logo"><a href="index.html">Synclyee</a></h1>
+    <div class="logo">
+      <a href="index.html">
+        <img src="img/logo.png" alt="Synclyee">
+      </a>
+    </div>
+
     <button class="hamburger" aria-label="メニューを開く">
       <span></span>
       <span></span>
@@ -21,15 +26,17 @@
       <!-- デスクトップ用ナビゲーション -->
       <ul>
         <li><a href="index.html">ホーム</a></li>
+        <li><a href="#price">機能・特徴</a></li>
         <li><a href="index.html#price">料金プラン</a></li>
-        <!-- <li><a href="security.html">セキュリティ</a></li> -->
+        <li><a href="security.html">セキュリティ</a></li>
         <li><a href="contact.html">お問い合わせ</a></li>
       </ul>
       <!-- モバイル用ナビゲーションメニュー -->
       <ul class="nav-menu">
         <li><a href="index.html">ホーム</a></li>
+        <li><a href="#price">機能・特徴</a></li>
         <li><a href="index.html#price">料金プラン</a></li>
-        <!-- <li><a href="security.html">セキュリティ</a></li> -->
+        <li><a href="security.html">セキュリティ</a></li>
         <li><a href="contact.html">お問い合わせ</a></li>
       </ul>
     </nav>
@@ -45,26 +52,46 @@
           </p>
         </div>
         <div class="security-main">
-          <h2>システム</h2>
+          <h3>システム</h3>
           <div class="security-container">
             <div class="security-detail">
-              <h3>すべての通信データとデータベースを暗号化</h3>
+              <i class="bi bi-google"></i>
+              <h4>高度な運用と実績を誇るデータセンターを採用</h4>
+              <p>世界中の大手企業にも採用されている、Google Cloud Platformのデータセンターを採用。 YouTubeやGmailで使用されている高度なセキュリティ基準で、サービスを維持・運用します。</p>
+            </div>
+            <div class="security-detail">
+              <i class="bi bi-file-earmark-lock"></i>
+              <h4>すべての通信データとデータベースを暗号化</h4>
               <p>通信のすべてをSSL/TLSによるデータ暗号化を行い、 通信途中で第三者に盗み見られることやデータの改ざんを防ぎます。</p>
             </div>
             <div class="security-detail">
-              <h3>24時間365日リアルタイム監視</h3>
+              <i class="bi bi-list-check"></i>
+              <h4>24時間365日リアルタイム監視</h4>
               <p>システムにセキュリティ上の問題がないかを定期的に監査。 24時間365日、サーバーの監視を行い、異常を検知した場合はリアルタイムでシステム担当者へ通知します。</p>
             </div>
             <div class="security-detail">
-              <h3>プライバシーを尊重した厳格なデータ管理</h3>
+              <i class="bi bi-database-lock"></i>
+              <h4>プライバシーを尊重した厳格なデータ管理</h4>
               <p>お客様の大切なデータは厳格なセキュリティのもと、プライバシーを尊重した管理を行っています。</p>
-            </div>
-            <div class="security-detail">
-              <h3>不正ログインを防止</h3>
-              <p>ISO 27001やSOC2に準拠したFirebase Authenticationを導入して、安全な認証を実現しています。</p>
             </div>
           </div>
 
+          <div class="security-main">
+            <h3>不正ログイン防止</h3>
+            <div class="security-container">
+              <div class="security-detail">
+                <i class="bi bi-key"></i>
+                <h4>ユーザー認証</h4>
+                <p>ISO 27001(情報セキュリティマネジメントシステムに関する国際標準規格)やSOC2に準拠したFirebase Authenticationを導入して、安全な認証を実現しています。</p>
+              </div>
+              <div class="security-detail">
+                <i class="bi bi-clipboard-data"></i>
+                <h4>詳細な行動ログ</h4>
+                <p>ユーザログイン・動画視聴・資料のダウンロードなどの細かい情報がログとして保存されます。管理者はいつでもこれらの情報を確認する事ができます。</p>
+              </div>
+            </div>
+          </div>
+  
         </div>
 
         <div class="faq-section">
