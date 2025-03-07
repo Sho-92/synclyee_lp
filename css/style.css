@@ -39,7 +39,7 @@ html {
 }
 
 /* 見出し */
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
   color: #2c3e50;
 }
 
@@ -50,10 +50,10 @@ h1, h2, h3, h4 {
 
 /* 区切り線 */
 hr {
-  width: 100%; 
+  width: 90%; 
   border: none;
   border-top: 1px solid #ccc;
-  margin: 10px 0;
+  margin: 10px auto;
 }
 
 /* ヘッダー（デスクトップ） */
