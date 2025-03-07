@@ -178,7 +178,7 @@
     font-size: 28px;
   }
   .function-main {
-    padding: 20px;
+    padding: 0;
     max-width: 100%;
   }
   .function-main h3 {
@@ -193,7 +193,7 @@
   .function-detail {
     justify-content: center; 
     max-width: 100%;
-    padding: 15px;
+    padding: 15px 5px;
   }
   .function-detail i {
     font-size: 30px;
